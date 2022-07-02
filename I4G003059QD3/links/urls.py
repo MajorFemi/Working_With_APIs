@@ -1,7 +1,7 @@
 from django.urls import path
 from . import views 
 
-app_name="links"
+app_name="link"
 
 urlpatterns = [
     path("create/", views.PostCreateApi.as_view(), name="api_create"),
